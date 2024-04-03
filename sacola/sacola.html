@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/sacola/sacola.css">
+    
+    <title>Rany Clothes | Cadastro de Produtos</title>
+</head>
+<body>
+
+   <header> 
+    <nav class="navbar navbar-expand-lg" nav class="navbar" style="background-color: #5166A8;">
+        <div class="container-fluid">
+          <a href="/index.html"><img src="/images/RANY CLOTHES-1.png" class="logo" alt="" style="padding-right: 1%;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item" >
+                <a class="nav-link active" aria-current="page" href="/index.html" style="color:white">Página inicial</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Moda feminina</a></li>
+                  <li><a class="dropdown-item" href="#">Moda infantil</a></li>
+                  <li><a class="dropdown-item" href="#">Moda masculina</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Mais opções em breve</a></li>
+                  <li><a class="dropdown-item" href="/cadProduto/cadProd.html">Admin</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contatos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Login / Cadastre-se</a>
+              </li>
+              <li>
+                <a href=""><img id="sacolinha" src="/images/sacolas-de-compras.png" alt=""></a>
+              </li>
+              
+            </ul>
+            
+           <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquise seus produtos favoritos!" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        
+        </div>
+      </nav>
+    </header>
+
+   <main>
+     <section id = "carrossel">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <h3>frete gratis nas compras acima de R$299,00</h3>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <h3>faça login pra saber o valor do frete</h3>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <h3>Produtos com 10% de desconto</h3>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+       </section>
+
+
+       <section>
+        <div id="titulo" ><h1>Carrinho</h1></div>
+            
+          <div class="col col-12 conteudo">     
+
+              <div class="col col-6 descricao">
+
+                <div id="listagem">
+
+                  <h2>Lista de Produtos</h2>
+
+                  <h3 id="subTotalizar"></h3>
+          
+                  <h3 id="outrosEnc"></h3>
+          
+                  <h1 id="vlrTotal"></h1>
+          
+                  <div id="desc">
+                
+                      <label>digite o produto</label>
+                      <input type="text" id="example" onclick="enviar()">
+
+                  </div>
+          
+              </div>
+               
+             </div>
+
+          </div>
+
+              
+      </section>
+   </main> 
+  
+    <footer class=" col col-12.container-fluid">
+        <div class="col col-2" id="redessociais">
+          
+          <div class="col col-6">
+             <h5>Siga-nos nas Redes Sociais</h5>
+             <img src="/images/instagram.png">
+             <img src="/images/facebook.png" alt="">
+             <img src="/images/whatsapp.png" alt="">
+             <img src="/images/telefone.png" alt="">
+          </div>
+        </div>
+        <div class="col col-2" id="site_seguro">
+          <img src="/images/site-seguro red.png" alt="">
+        </div>
+        <div class="col col-2" id="formas-pagto">
+          <h5>Formas de Pagamento</h5>
+          <img src="/images/meios_pagamento red.jpg" alt="">
+        </div>
+    </footer>
+    <script src="/sacola/sacola.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.col{
+    margin-top: 0.5em;
+    min-height: 1rem; 
+    display: inline-block;
+    width:100%;
+    
+    
+}
+
+.headder, .footer{
+    min-height: 15vh;
+}
+
+@media(min-width:480px){
+.col-1{width: 8.33%;} 
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 49%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+}
+
+.logo{
+    max-width: 12em;
+}
+
+.nav-link{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+
+
+}
+
+.btn{
+    background-color: #fff;
+    color: #5166A8;
+    border-color: #fff;
+}
+#sacolinha{
+    max-width: 2.5em;
+}
+.navbar-toggler{
+    background-color: white;
+    color: #5166A8;
+    
+}
+.navbar-toggler:hover{
+    background-color:#5166A8;
+    border-color: white;
+    scale: 1.1;
+}
+
+.btn-outline-success:hover{
+    background-color:#5166A8;
+    border-color: white;
+    scale: 1.1;
+}
+
+footer{
+    width: 100%;
+    background:#5166A8 ;
+    padding: 2%;
+    padding-left: 10%;
+    color: white; 
+}
+
+#redessociais{
+    width: 33.3%;   
+}
+
+#redessociais img{
+    width: 10%;   
+}
+
+#site_seguro img{
+    width: 33.3%;
+}
+
+#formas-pagto{
+    width: 33.3%;
+}
+
+#formas-pagto img{
+    width: 30%;   
+}
+
+h5{
+    font-size: 70%;
+}
+
+.imgconteudo{
+    width: 100%;
+    height: 25rem;    
+}
+
+.conteudo3{
+  width: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#titulo{
+    font-family: sans-serif;
+    color:rgba(0, 0, 0, 0.5);
+    text-align: center;
+    
+    margin:0.5rem;
+    text-align: center;
+
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color:white
+    text-align: center;
+    
+    margin:1rem;
+    text-align: center;
+
+}
+
+fieldset {
+    border: 0;
+    
+    
+}
+
+input, select, button {
+    border-radius: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 2%;
+}
+
+.campo{
+    margin-bottom: 0.5em;
+    
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgba(185, 206, 207, 0.9);
+    display: block;
+}
+
+fieldset.grupo .campo {
+    margin-left: 0.5rem;
+    float: left;
+    margin-right: 0.5em;
+    text-align: left;
+    
+}
+
+#input0, #input1, #input2, #input3 {
+    border: 1px solid #151516;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+.campo input[type="text"], .campo input [type="number"], .campo select  {
+  
+    border: 2px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.campo input:focus, .campo select:focus .campo textarea:focus {
+    background: rgba(185, 206, 207, 0.9);
+    
+}
+
+.campo select{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    float: left;
+    margin-right: 2rem;
+
+    }
+
+.botao {
+    font-size: 1.3em;
+    background: #a5db4e;
+    border: 0;
+    margin-bottom: 1.5em;
+    color: #ffffff;
+    padding: 0.2em 1.2em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 20px;
+    left: 5%;
+    
+    
+    
+}
+
+.botao:hover {
+    background: #827d8f;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+
+#entradas {
+
+    margin-bottom: 2em;
+    margin-top: 4em;
+    border: 0;
+    
+    color: rgba(185, 206, 207, 0.411);
+    
+    float: left;
+    margin-right: 2em;
+    
+}
+
+.conteudo{
+    background: linear-gradient(#5166A8, white);
+    text-align: center;
+    
+      
+}
+
+.descricao{
+    
+    font-family: sans-serif;
+    color:rgba(0, 0, 0, 0.5);
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    min-height: 30vh;
+    
+    
+}
+
+.formulario{
+    
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+    margin: 0.5rem;
+    
+       
+}
+
+#inf{
+    margin-top: 2rem;
+    color: rgba(0,0,0,0.4);
+}
+
+.lista-produto{
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    margin: 0.5rem;
+    width: 100%;
+    
+ }
+
+ .display{
+    flex: 1;
+ }
